@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rrrrrr"
+    tools:context=".epistyles">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text="Epistylis Spp"
+        android:textColor="#019874"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="345dp"
+        android:layout_height="397dp"
+        android:text="Parasit ini umumnya menyerang organ-organ bagian luar seperti kulit, insang dan sirip. Ciri-ciri ikan yang terserang bagian insangnya berwarna merah kecoklatan, ikan sukar bernafas, gerakan lambat dan pertumbuhannya terhambat."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="345dp"
+        android:layout_height="397dp"
+        android:layout_marginBottom="-420dp"
+        android:text="Solusi : Penularan penyakit terjadi karena kontak langsung dengan ikan yang sakit. Pencegahannya dengan mengurangi padat tebar ikan. Pengobatnnya dengan merendam ikan dalam larutan formalin 200 mg/liter selama 40 menit, atau KmnO4 20 mg/liter selama 15-20 menit."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

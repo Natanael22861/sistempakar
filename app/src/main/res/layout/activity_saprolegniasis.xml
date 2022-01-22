@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rrrrrr"
+    tools:context=".saprolegniasis">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text="Saprolegniasis"
+        android:textColor="#019874"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="345dp"
+        android:layout_height="397dp"
+        android:text="Penyakit yang disebabkan oleh sejenis jamur. Biasanya menyerang telur, larva dan benih ikan. Bagian tubuh yang diserang organ-organ luar. Infeksi oleh jamur Saprolegnia dapat dilihat dengan ciri khusus yaitu bercak yang menyerupai kapas putih pada bagian kepala, sirip anal, dan sirip caudal."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="345dp"
+        android:layout_height="397dp"
+        android:layout_marginBottom="-460dp"
+        android:text="Solusi : Pengobatan dilakukan dengan merendam telur atau ikan yang terserang dalam larutan malachite green 1 mg/liter selama 1 jam, atau larutan formalin 200-300 mg/liter selama 1-3 jam, atau NaCl 5 gram/liter selama 15 menit."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rrrrrr"
+    tools:context=".bercakmerah">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text="Bercak Merah"
+        android:textColor="#019874"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="345dp"
+        android:layout_height="397dp"
+        android:text="Penyakit ini disebabkan oleh bakteri Aeromonas dan Pseudomonas. Menyerang organ bagian dalam dan luar. Ciri-cirinya ada pendarahan pada bagian tubuh yang terserang, sisik terkelupas, perut membusung, ikan terlihat lemah dan sering muncul ke permukaan kolam."
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="345dp"
+        android:layout_height="397dp"
+        android:layout_marginBottom="-400dp"
+        android:text="Solusi : Pengobatan bisa dilakukan dengan cara menyuntik, perendaman atau dengan mencampur obat pada pakan. Obat perendaman kaliumpermanganat 10-20 mg/liter selama 30-60 menit. Penyuntikan dengan tetramysin 0,05 ml per 100 gram bobot ikan atau kanamysin 20-40 mg/kg bobot ikan. Pencampuran pada pakan dengan oxytetracylin 50mg/kg pakan, diberikan setiap hari selama 7-10 hari."
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
